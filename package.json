@@ -4,7 +4,7 @@
   "main": "store.js",
   "scripts":{
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node store.js",
+    "start": "node store.js"
   }
   "dependencies": {
     "cors": "^2.8.5",
