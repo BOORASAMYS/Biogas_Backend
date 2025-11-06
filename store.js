@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // --- Database Connection ---
-const mongoURI = 'mongodb://127.0.0.1:27017/BioGas';
+const mongoURI = 'mongodb+srv://sboorasamy39_db_user:TJ9HoHfAckwLTzUy@biogas.sohnxls.mongodb.net/';
 
 mongoose.connect(mongoURI)
   .then(() => console.log('MongoDB connected'))
