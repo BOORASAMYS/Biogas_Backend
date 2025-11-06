@@ -1,4 +1,11 @@
 {
+  "name": "Node",
+  "version": "1.0.0",
+  "main": "store.js",
+  "scripts":{
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node store.js",
+  }
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
